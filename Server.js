@@ -10,7 +10,7 @@ const app = express();
 
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://sreelathakambam37_db_user:sTXQ1enPc5YssUxO@cluster0.e4wcv65.mongodb.net/').then(
+mongoose.connect('').then(
     ()=> console.log('connected to database.......')
 ).catch(err=>console.log(err))
 

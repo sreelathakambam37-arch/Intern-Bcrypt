@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Todo Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<h2>My Todos</h2>
+
+<button class="logout-btn"
+onclick="logout()">
+
+Logout
+
+</button>
+
+</div>
+
+<input id="title"
+placeholder="Todo Title">
+
+<textarea
+id="description"
+placeholder="Description">
+</textarea>
+
+<button onclick="createTodo()">
+
+Create Todo
+
+</button>
+
+<div id="todos"></div>
+
+</div>
+
+<script src="app.js"></script>
+
+<script>
+
+getTodos();
+
+</script>
+
+</body>
+</html>
